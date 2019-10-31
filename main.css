@@ -1,0 +1,111 @@
+body{margin:0;background:linear-gradient(to right, rgba(0, 0, 0, .7), rgba(0, 0, 0, 0.3)), url(img/bg.jpg) fixed;overflow-x:hidden;}
+	a{cursor:pointer}
+.head{height:100%;width:100%;}
+.signup{width:100%;height:600px;border:1px solid black;
+background-position:bottom;background-attachment:fixed;background-size: 100em;text-align:center;
+box-shadow: inset 0 -30px 60px rgba(0,0,0,.8);overflow:hidden;color:white;font-family:serif;font-size:20}
+.logon{height:100%;width:22em;float:right;padding: 80px  0 0 0;border:1px solid black;box-shadow:inset 0px -20px 40px rgba(0,0,0,.8),0px 20px 40px rgba(0,0,0,.8);background:rgba(0,0,0,0.4)}
+.logon input{width:80%;margin:15px 0;height:35px;border:1px solid #ccc;border-radius:3px;padding:2px;    font-family: serif;}
+#submit{width:40%;border-radius:5px;background:#d9604a;height:35px;margin:15px;border:0;    font-family: serif;color:#ddd;transition:.3s}
+#submit:hover{color:white;box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.25);cursor:pointer}
+.divider{width:0;height:0;border:1px solid black; margin:20px 0}
+.divider{width:100%;height:1px;background:black;border:0; margin:20px 0}
+.logout{width:80%;padding:15px 10%}
+.logout-button{border-bottom:1px solid black}
+.uoptions{float:left}
+.error{color:red;}
+
+.titly{height:100%;width:40%;float:left;padding:160px 5%;text-align:left;}
+h1{transition: font-size .5s;font-size:50;font-family:arial,sans-serif;color:#d9604a;    font-style: oblique;
+    font-weight: 600;transition:.2s;text-shadow: 1px 1px 1px #5d281e;}
+h1:hover{color:#f9604a;cursor:context-menu;}
+h2{font-size:30;font-family:arial,sans-serif;padding:0;margin:0;color:#222}
+h3{color:black;margin:0;padding:0;width:100%;border-bottom:1px solid black;}
+h4{color:black;font-size:25;font-family:Serif;height:40px;width:100%;padding:30px 0 0 ;text-align:center;font-size:25;}
+p{transition:1s font-size .8s;font-family:arial,sans-serif;padding:0;margin:0;color:white;font-size:16}
+.signup p{font-size:20}
+.user-name{color:white}
+.user-dets{text-align:left;padding:0 30%}
+
+.searchbar{width:60%;padding:5px 20%;float:right;box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3)}
+.searchbar #submit{width:28%;margin:0}
+#searchtext{width:70%;height:35px;border:1px solid #ccc;border-radius:3px;padding:2px;font-family: serif;}
+
+.products{height:initial;width:100%;padding:40px 0;display: flow-root;}
+.prod{border:1px solid black;max-width:50%;height:20em;float:left; margin:18px 10px;padding:1em 20px;background:rgba(255,255,255,0.99);border-radius:4px}
+.prod:hover{cursor:pointer}
+.prodimg{width:90%;height:14em;margin:1em 5%;border-bottom:1px solid black;position:absolute}
+.prod a p{color:#555}
+
+.optionset{width:100%;border-bottom:1px solid black;height:400px}
+.optionset div{width:50%;height:100%;transition:.3s;background-size: 50em;margin:0}
+.optionset div:hover{background-size: 60em;}
+.men h2, .Women h2{text-align:center;color:white;font-weight: bold;font-family: serif}
+.men{float:left;background:url(./img/Men.jpg) center;margin-left:10%}
+.women{float:right;background:url(./img/Women.jpg) center;margin-right:10%}
+.men .optioncategory{float:right}
+.optionset div .optioncategory{width:100%;height:100%}
+.optionset div .optioncategory:hover{background:rgba(0,0,0,0.7)}
+.optioncategory .categories{border-bottom:1px solid white;border-top:1px solid white;height:0px;width:60%;margin:0 20%;text-align:center;overflow:hidden}
+.optioncategory:hover .categories{height:300px;box-shadow:0;}
+.categories a{margin:5px 0;font-family:arial,sans-serif;font-size:16;display:inline-block}
+
+.about{width:72%;padding:1px 14%;height:600px;border-bottom:1px solid black;background:#888}
+p a:hover{text-decoration:underline}
+
+.contactiboi{width:100%;height:40px;padding:20px 40px}
+.contactiboi a img{width:32px;height:32px;padding:10px 10px;cursor:pointer;transition:.2s}
+.contactiboi a img:hover{width:42px;height:42px;padding:5px 5px;border:1px solid black;border-radius:4px;}
+#text{width:80%;padding:4px;border-bottom-left-radius: 5px;border-top-left-radius: 5px;border:1px solid #ccc;transition:.3s}
+#search {background: #d9604a;padding:6px;border-bottom-right-radius: 5px;border-top-right-radius: 5px;border:none;color:#ccc}
+
+.footer{width:90%;height:220px;bottom:0;background:black;padding:35px 10%;position:relative}
+table{float:left;width:250px}
+th{color:white;font-size:20;text-align:left}
+td{padding: 2px}
+td a {color:#ccc;font-size:17}
+
+.photo{text-align:center;vertical-align: baseline;width:100%;list-style-type: none;transition:3s;}
+.each{max-height:100%;max-width:100%;border-top-left-radius:4px;border-top-right-radius:4px;}
+.products {flex-direction: row-reverse}
+.photo>a>div{margin:4% 3%;transition:.2s;width:200px;float:left;height:260px}
+.photo>a>div:hover{opacity:0.9}
+.photo>a>div>h3{margin:0;width:185px;padding:.8em 8px;border-bottom-left-radius:4px;border-bottom-right-radius:4px;
+background: linear-gradient(to right, rgba(251, 196, 255, 0.6) , rgba(243, 150, 114, 0.6));overflow:hidden;font-size:15}
+.photo>a>div>h3>p{margin:0;overflow:hidden}
+
+.popup{display:none}
+.popon{height:100%;width:100%;background:rgba(0,0,0,0.5);position:fixed;top:0;left:0;}
+.popon a div{height:100%;width:100%;cursor:pointer}
+.popon .show{height:90%;width:40%;margin:1% 30%;position:fixed;top:0;text-align:center;background:transparent}
+.popon{display:block}
+.popon1{height:100%;width:100%;background:rgba(0,0,0,0.5);position:fixed;top:0;left:0;}
+.popon1 a div{height:100%;width:100%;cursor:pointer}
+.popon1 .show{height:90%;width:60%;margin:50px 20%;position:fixed;top:0;text-align:center;background:transparent}
+.popon1{display:block}
+
+.product-view{width:200px;height:100%;border-right:1px solid #d9604a;padding:10px;float:left}
+.product-view img{max-width:200px}
+.product-dets{height:100%;padding:10px;color:black;width:500px}
+.product-dets h2{background:transparent;text-align:left;color:#d9604a;border-bottom:1px solid #d9604a}
+.product-dets b{color:#d9604a;width:100%}
+.product-dets p{padding: 0 10px 0;color:black}
+.product-dets table{width:100%;height:75px}
+
+
+@media screen and (max-width:1300px){
+	.head{width:100%;margin:0}
+	.photo{width:100%;padding:0}
+}	
+@media screen and (max-width:1224px){
+	.products{padding:40px 0}
+}
+@media screen and (max-width:920px){
+	.signup{width:100%;height:1000px}
+	h2{color:white}
+	.titly{height:200px;padding-top:80px;width:100%;padding-bottom: 20;}
+	.logon{width:100%;height:680px;padding-top:20px;background:none}
+	.footer{height:250px;padding:35px 5%}
+	table{width:50%;}
+	.about{width:94%;padding:0 3%;height:350px}
+}

@@ -1,0 +1,8 @@
+CREATE DATABASE Store;
+use Store;
+
+CREATE TABLE products(ID int not null primary key AUTO_INCREMENT, Title varchar(40),description varchar(400),cost int(10), selling_price int(10), size varchar(5), colour varchar(25), manufacturer varchar(50),quantity int(10));
+CREATE TABLE Users(ID int not null primary key AUTO_INCREMENT,username varchar(40),First_name varchar(20),last_name varchar(40), DOB date, address varchar(100), phone_no int(11),email varchar(50), gender varchar(6),img_url varchar(255),accounttype varchar(1));
+CREATE TABLE activity_log(ID int not null PRIMARY KEY AUTO_INCREMENT,user int not null,action varchar(100),date_log Date);
+CREATE TABLE CreditCard(acc_no int not null primary key AUTO_INCREMENT,acc_name varchar(30), exp_date date, pin int(4), zip_code int(5), CC_type varchar(30), username varchar(30));
+grant all privileges on store.* to 'user1'@'localhost' identified by 'password'

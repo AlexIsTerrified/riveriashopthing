@@ -1,0 +1,41 @@
+body{margin:0;
+background:url('img/bg.jpg') fixed;
+overflow-x:hidden}
+
+.wrap{
+	height:840px;
+	width:40em;
+	border-radius:20px;
+	margin:auto;
+	background:url('img/gp.jpg');
+	box-sizing:border-box;
+	padding:40px;
+	color:#fff;
+	margin-top:50px;
+	padding:5px;
+}
+.signup-form{
+	padding:20px;
+	font-family:Serif;
+	border:1px solid black;
+	color:black;
+	    background:#eeeeeed4;
+		margin-bottom:50px;
+}
+.h2idk{background:transparent;text-align:left;color:black;border-bottom:1px solid #d9604a}
+.signup-form input{
+	padding:10px;
+	margin:10px;
+	border-radius:3px;
+	border:none;
+}
+.signup-form a{color:black;}
+.signup-form a:hover{color:#d9604a;}
+.wrap input[type=text]{width:80%;}
+#password{width:80%;}
+
+select{
+	padding:10px;
+	margin:10px;
+	border-radius:3px;
+}
